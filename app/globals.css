@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ball-gradient {
+  background: radial-gradient(circle at 30% 30%, #ffffff 0%, #e2e8f0 50%, #cbd5e1 100%);
+  box-shadow: inset -2px -2px 5px rgba(0,0,0,0.1), 2px 2px 8px rgba(0,0,0,0.2);
+}
